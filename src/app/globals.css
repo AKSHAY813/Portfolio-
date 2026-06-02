@@ -1,1 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0E0E10;
+  color: #EDEDED;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.glow {
+  box-shadow: 0 0 20px rgba(58, 134, 255, 0.3);
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(58, 134, 255, 0.5);
+}
